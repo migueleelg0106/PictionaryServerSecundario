@@ -92,36 +92,19 @@ namespace PictionaryMusicalServidor.Datos
                 throw ex;
             }
 
-            try
-            {
-                string idiomaInterno = MapearIdiomaInterno(idioma);
-                string idiomaBusqueda = NormalizarTexto(idiomaInterno);
-                var idsRechazados = idsExcluidos ?? new HashSet<int>();
+            string idiomaInterno = MapearIdiomaInterno(idioma);
+            string idiomaBusqueda = NormalizarTexto(idiomaInterno);
+            var idsRechazados = idsExcluidos ?? new HashSet<int>();
 
-                var candidatos = ObtenerCandidatos(idiomaBusqueda, idsRechazados);
+            var candidatos = ObtenerCandidatos(idiomaBusqueda, idsRechazados);
 
-                if (!candidatos.Any())
-                {
-                    RegistrarErrorFaltaCanciones(idioma, idiomaInterno, idiomaBusqueda);
-                    throw new CancionNoDisponibleExcepcion(MensajeCancionesNoDisponibles);
-                }
+            if (!candidatos.Any())
+            {
+                RegistrarErrorFaltaCanciones(idioma, idiomaInterno, idiomaBusqueda);
+                throw new CancionNoDisponibleExcepcion(MensajeCancionesNoDisponibles);
+            }
 
-                return SeleccionarAleatorio(candidatos);
-            }
-            catch (CancionNoDisponibleExcepcion)
-            {
-                throw;
-            }
-            catch (ArgumentException ex)
-            {
-                _logger.Error("Error inesperado al obtener una cancion aleatoria.", ex);
-                throw;
-            }
-            catch (InvalidOperationException ex)
-            {
-                _logger.Error("Error inesperado al obtener una cancion aleatoria.", ex);
-                throw;
-            }
+            return SeleccionarAleatorio(candidatos);
         }
 
         /// <summary>
