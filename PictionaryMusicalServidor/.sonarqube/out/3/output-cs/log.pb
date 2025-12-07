@@ -1,0 +1,1 @@
+Roslyn version: 4.14.0.0Language version: CSharp7_3!Concurrent execution: enabled–ÀFile 'C:\Users\Usuario\source\repos\PictionaryMusical\PictionaryMusicalServidor\PictionaryMusicalServidor.Pruebas\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs' was recognized as generated

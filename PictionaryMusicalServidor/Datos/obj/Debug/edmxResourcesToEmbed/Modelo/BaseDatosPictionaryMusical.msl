@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BaseDatosPruebaModelStoreContainer" CdmEntityContainer="BaseDatosPruebaEntities">
+    <EntitySetMapping Name="Amigo">
+      <EntityTypeMapping TypeName="BaseDatosPruebaModel.Amigo">
+        <MappingFragment StoreEntitySet="Amigo">
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="UsuarioEmisor" ColumnName="UsuarioEmisor" />
+          <ScalarProperty Name="UsuarioReceptor" ColumnName="UsuarioReceptor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clasificacion">
+      <EntityTypeMapping TypeName="BaseDatosPruebaModel.Clasificacion">
+        <MappingFragment StoreEntitySet="Clasificacion">
+          <ScalarProperty Name="idClasificacion" ColumnName="idClasificacion" />
+          <ScalarProperty Name="Puntos_Ganados" ColumnName="Puntos_Ganados" />
+          <ScalarProperty Name="Rondas_Ganadas" ColumnName="Rondas_Ganadas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Jugador">
+      <EntityTypeMapping TypeName="BaseDatosPruebaModel.Jugador">
+        <MappingFragment StoreEntitySet="Jugador">
+          <ScalarProperty Name="idJugador" ColumnName="idJugador" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Id_Avatar" ColumnName="Id_Avatar" />
+          <ScalarProperty Name="Clasificacion_idClasificacion" ColumnName="Clasificacion_idClasificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RedSocial">
+      <EntityTypeMapping TypeName="BaseDatosPruebaModel.RedSocial">
+        <MappingFragment StoreEntitySet="RedSocial">
+          <ScalarProperty Name="idRedSocial" ColumnName="idRedSocial" />
+          <ScalarProperty Name="Jugador_idJugador" ColumnName="Jugador_idJugador" />
+          <ScalarProperty Name="Instagram" ColumnName="Instagram" />
+          <ScalarProperty Name="discord" ColumnName="discord" />
+          <ScalarProperty Name="facebook" ColumnName="facebook" />
+          <ScalarProperty Name="x" ColumnName="x" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Reporte">
+      <EntityTypeMapping TypeName="BaseDatosPruebaModel.Reporte">
+        <MappingFragment StoreEntitySet="Reporte">
+          <ScalarProperty Name="idReporte" ColumnName="idReporte" />
+          <ScalarProperty Name="idReportado" ColumnName="idReportado" />
+          <ScalarProperty Name="Motivo" ColumnName="Motivo" />
+          <ScalarProperty Name="Fecha_Reporte" ColumnName="Fecha_Reporte" />
+          <ScalarProperty Name="idReportante" ColumnName="idReportante" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="BaseDatosPruebaModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+          <ScalarProperty Name="Nombre_Usuario" ColumnName="Nombre_Usuario" />
+          <ScalarProperty Name="Contrasena" ColumnName="Contrasena" />
+          <ScalarProperty Name="Jugador_idJugador" ColumnName="Jugador_idJugador" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

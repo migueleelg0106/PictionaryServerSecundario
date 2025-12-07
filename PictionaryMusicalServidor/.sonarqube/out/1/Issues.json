@@ -1,0 +1,2457 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.14.0.0",
+        "fileVersion": "4.14.0-3.25412.6 (c167adef)",
+        "semanticVersion": "4.14.0",
+        "language": "es-MX"
+      },
+      "results": [
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ConfiguracionPartidaDTO' to match pascal case naming rules, consider using 'ConfiguracionPartidaDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/ConfiguracionPartidaDTO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ReporteJugadorDTO' to match pascal case naming rules, consider using 'ReporteJugadorDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/ReporteJugadorDTO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ActualizacionContrasenaDTO' to match pascal case naming rules, consider using 'ActualizacionContrasenaDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/ActualizacionContrasenaDTO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_duracionRondaSegundos' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/LogicaNegocio/GestorTiempoPartida.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 21,
+                  "endLine": 17,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'SalaDTO' to match pascal case naming rules, consider using 'SalaDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/SalaDTO.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 18,
+                  "endLine": 11,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ClasificacionUsuarioDTO' to match pascal case naming rules, consider using 'ClasificacionUsuarioDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/ClasificacionUsuarioDTO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ConfirmacionCodigoDTO' to match pascal case naming rules, consider using 'ConfirmacionCodigoDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/ConfirmacionCodigoDTO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'CredencialesInicioSesionDTO' to match pascal case naming rules, consider using 'CredencialesInicioSesionDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/CredencialesInicioSesionDTO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ReenvioCodigoDTO' to match pascal case naming rules, consider using 'ReenvioCodigoDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/ReenvioCodigoDTO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ReenvioCodigoVerificacionDTO' to match pascal case naming rules, consider using 'ReenvioCodigoVerificacionDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/ReenvioCodigoVerificacionDTO.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 18,
+                  "endLine": 11,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'NuevaCuentaDTO' to match pascal case naming rules, consider using 'NuevaCuentaDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/NuevaCuentaDTO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ResultadoPartidaDTO' to match pascal case naming rules, consider using 'ResultadoPartidaDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/ResultadoPartidaDTO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ResultadoInicioSesionDTO' to match pascal case naming rules, consider using 'ResultadoInicioSesionDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/ResultadoInicioSesionDTO.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 18,
+                  "endLine": 11,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ActualizacionPerfilDTO' to match pascal case naming rules, consider using 'ActualizacionPerfilDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/ActualizacionPerfilDTO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ResultadoOperacionDTO' to match pascal case naming rules, consider using 'ResultadoOperacionDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/ResultadoOperacionDTO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1135",
+          "level": "warning",
+          "message": "Complete the task associated to this 'TODO' comment.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/TrazoDTO.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 39,
+                  "endLine": 42,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ResultadoSolicitudCodigoDTO' to match pascal case naming rules, consider using 'ResultadoSolicitudCodigoDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/ResultadoSolicitudCodigoDTO.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 18,
+                  "endLine": 11,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ResultadoSolicitudRecuperacionDTO' to match pascal case naming rules, consider using 'ResultadoSolicitudRecuperacionDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/ResultadoSolicitudRecuperacionDTO.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 18,
+                  "endLine": 11,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3260",
+          "level": "warning",
+          "message": "Private classes which are not derived in the current assembly should be marked as 'sealed'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/AmigosManejador.cs",
+                "region": {
+                  "startLine": 514,
+                  "startColumn": 23,
+                  "endLine": 514,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2245",
+          "level": "warning",
+          "message": "Make sure that using this pseudorandom number generator is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/Utilidades/CodigoVerificacionGenerador.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 50,
+                  "endLine": 11,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'SolicitudAmistadDTO' to match pascal case naming rules, consider using 'SolicitudAmistadDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/SolicitudAmistadDTO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ResultadoRegistroCuentaDTO' to match pascal case naming rules, consider using 'ResultadoRegistroCuentaDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/ResultadoRegistroCuentaDTO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'InvitacionSalaDTO' to match pascal case naming rules, consider using 'InvitacionSalaDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/InvitacionSalaDTO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'AmigoDTO' to match pascal case naming rules, consider using 'AmigoDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/AmigoDTO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3881",
+          "level": "warning",
+          "message": "Fix this implementation of 'IDisposable' to conform to the dispose pattern.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/LogicaNegocio/GestorTiempoPartida.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 18,
+                  "endLine": 12,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/LogicaNegocio/GestorTiempoPartida.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 18,
+                  "endLine": 12,
+                  "endColumn": 38
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/LogicaNegocio/GestorTiempoPartida.cs",
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 21,
+                  "endLine": 112,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Provide 'protected' overridable implementation of 'Dispose(bool)' on 'GestorTiemposPartida' or mark the type as 'sealed'.",
+              "1": "'GestorTiemposPartida.Dispose()' should call 'Dispose(true)' and 'GC.SuppressFinalize(this)'."
+            }
+          }
+        },
+        {
+          "ruleId": "S1144",
+          "level": "warning",
+          "message": "Remove the unused private field '_logger'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/LogicaNegocio/ControladorPartida.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 9,
+                  "endLine": 21,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'UsuarioDTO' to match pascal case naming rules, consider using 'UsuarioDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/UsuarioDTO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'RondaDTO' to match pascal case naming rules, consider using 'RondaDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/RondaDTO.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'TrazoDTO' to match pascal case naming rules, consider using 'TrazoDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/TrazoDTO.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'SolicitudRecuperarCuentaDTO' to match pascal case naming rules, consider using 'SolicitudRecuperarCuentaDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Contratos/DTOs/SolicitudRecuperarCuentaDTO.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'El identificador de sala es obligatorio.' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CursoPartidaManejador.cs",
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 42,
+                  "endLine": 79,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CursoPartidaManejador.cs",
+                "region": {
+                  "startLine": 113,
+                  "startColumn": 42,
+                  "endLine": 113,
+                  "endColumn": 84
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CursoPartidaManejador.cs",
+                "region": {
+                  "startLine": 136,
+                  "startColumn": 42,
+                  "endLine": 136,
+                  "endColumn": 84
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CursoPartidaManejador.cs",
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 42,
+                  "endLine": 165,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S3260",
+          "level": "warning",
+          "message": "Private classes which are not derived in the current assembly should be marked as 'sealed'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/Notificadores/CorreoCodigoVerificacionNotificador.cs",
+                "region": {
+                  "startLine": 221,
+                  "startColumn": 23,
+                  "endLine": 221,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3260",
+          "level": "warning",
+          "message": "Private classes which are not derived in the current assembly should be marked as 'sealed'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/Notificadores/CorreoInvitacionNotificador.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 23,
+                  "endLine": 137,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3928",
+          "level": "warning",
+          "message": "Use a constructor overloads that allows a more meaningful exception message to be provided.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/LogicaNegocio/ControladorPartida.cs",
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 23,
+                  "endLine": 60,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ValidarDatosEntrada' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CuentaManejador.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 39,
+                  "endLine": 137,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ObtenerAsunto' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/Notificadores/CorreoCodigoVerificacionNotificador.cs",
+                "region": {
+                  "startLine": 118,
+                  "startColumn": 24,
+                  "endLine": 118,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ValidarDatosSolicitud' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/VerificacionRegistroServicio.cs",
+                "region": {
+                  "startLine": 169,
+                  "startColumn": 39,
+                  "endLine": 169,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2245",
+          "level": "warning",
+          "message": "Make sure that using this pseudorandom number generator is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/LogicaNegocio/GestorJugadoresPartida.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 23,
+                  "endLine": 25,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/AmigosManejador.cs",
+                "region": {
+                  "startLine": 153,
+                  "startColumn": 13,
+                  "endLine": 156,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3267",
+          "level": "warning",
+          "message": "Loops should be simplified using the \"Where\" LINQ method",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/AmistadServicio.cs",
+                "region": {
+                  "startLine": 153,
+                  "startColumn": 39,
+                  "endLine": 153,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/AmistadServicio.cs",
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 25,
+                  "endLine": 155,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null
+            }
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ObtenerAsunto' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/Notificadores/CorreoInvitacionNotificador.cs",
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 24,
+                  "endLine": 72,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ObtenerIdentificadoresUsuarios' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/ReportesManejador.cs",
+                "region": {
+                  "startLine": 148,
+                  "startColumn": 53,
+                  "endLine": 148,
+                  "endColumn": 83
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ValidarSolicitudParaAceptar' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/AmistadServicio.cs",
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 22,
+                  "endLine": 195,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S5332",
+          "level": "warning",
+          "message": "EnableSsl should be set to true.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/Notificadores/CorreoInvitacionNotificador.cs",
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 46,
+                  "endLine": 97,
+                  "endColumn": 88
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S5332",
+          "level": "warning",
+          "message": "EnableSsl should be set to true.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/Notificadores/CorreoCodigoVerificacionNotificador.cs",
+                "region": {
+                  "startLine": 141,
+                  "startColumn": 46,
+                  "endLine": 141,
+                  "endColumn": 88
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'RegistrarAcierto' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/LogicaNegocio/ControladorPartida.cs",
+                "region": {
+                  "startLine": 356,
+                  "startColumn": 22,
+                  "endLine": 356,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'VerificarDuplicados' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CuentaManejador.cs",
+                "region": {
+                  "startLine": 193,
+                  "startColumn": 22,
+                  "endLine": 193,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ValidarEntradaSuscripcion' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/AmigosManejador.cs",
+                "region": {
+                  "startLine": 274,
+                  "startColumn": 22,
+                  "endLine": 274,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'EjecutarEnvioSmtpAsync' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/Notificadores/CorreoCodigoVerificacionNotificador.cs",
+                "region": {
+                  "startLine": 129,
+                  "startColumn": 34,
+                  "endLine": 129,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'EjecutarEnvioSmtpAsync' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/Notificadores/CorreoInvitacionNotificador.cs",
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 34,
+                  "endLine": 85,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'AlmacenarSolicitud' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/VerificacionRegistroServicio.cs",
+                "region": {
+                  "startLine": 235,
+                  "startColumn": 22,
+                  "endLine": 235,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'SonCredencialesValidas' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/InicioSesionManejador.cs",
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 22,
+                  "endLine": 83,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ValidarTokenReenvio' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/VerificacionRegistroServicio.cs",
+                "region": {
+                  "startLine": 249,
+                  "startColumn": 22,
+                  "endLine": 249,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ObtenerSolicitudPendiente' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/VerificacionRegistroServicio.cs",
+                "region": {
+                  "startLine": 256,
+                  "startColumn": 42,
+                  "endLine": 256,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6667",
+          "level": "warning",
+          "message": "Logging in a catch clause should pass the caught exception as a parameter.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/InicioSesionManejador.cs",
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 17,
+                  "endLine": 126,
+                  "endColumn": 81
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ValidarDatosConfirmacion' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/VerificacionRegistroServicio.cs",
+                "region": {
+                  "startLine": 310,
+                  "startColumn": 22,
+                  "endLine": 310,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'VerificarContrasena' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/InicioSesionManejador.cs",
+                "region": {
+                  "startLine": 170,
+                  "startColumn": 22,
+                  "endLine": 170,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'UsuarioAlcanzoLimiteReportes' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/InicioSesionManejador.cs",
+                "region": {
+                  "startLine": 181,
+                  "startColumn": 22,
+                  "endLine": 181,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'VerificarCodigoIngresado' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/VerificacionRegistroServicio.cs",
+                "region": {
+                  "startLine": 320,
+                  "startColumn": 51,
+                  "endLine": 320,
+                  "endColumn": 75
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'RegistrarConfirmacion' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/VerificacionRegistroServicio.cs",
+                "region": {
+                  "startLine": 342,
+                  "startColumn": 22,
+                  "endLine": 342,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'BuscarPorNombreUsuario' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/InicioSesionManejador.cs",
+                "region": {
+                  "startLine": 212,
+                  "startColumn": 25,
+                  "endLine": 212,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'BuscarPorCorreoElectronico' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/InicioSesionManejador.cs",
+                "region": {
+                  "startLine": 220,
+                  "startColumn": 25,
+                  "endLine": 220,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ValidarUsuariosExistentes' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/AmigosManejador.cs",
+                "region": {
+                  "startLine": 422,
+                  "startColumn": 22,
+                  "endLine": 422,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'EsMensajeInvalido' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/LogicaNegocio/ControladorPartida.cs",
+                "region": {
+                  "startLine": 528,
+                  "startColumn": 22,
+                  "endLine": 528,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ValidarIdUsuario' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/PerfilManejador.cs",
+                "region": {
+                  "startLine": 146,
+                  "startColumn": 22,
+                  "endLine": 146,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ValidarSolicitudEntrada' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/RecuperacionCuentaServicio.cs",
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 22,
+                  "endLine": 165,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/InvitacionesManejador.cs",
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 13,
+                  "endLine": 88,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ObtenerUsuarioConRelaciones' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/PerfilManejador.cs",
+                "region": {
+                  "startLine": 154,
+                  "startColumn": 25,
+                  "endLine": 154,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'AlmacenarSolicitud' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/RecuperacionCuentaServicio.cs",
+                "region": {
+                  "startLine": 221,
+                  "startColumn": 22,
+                  "endLine": 221,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ValidarFormatoCorreo' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/InvitacionesManejador.cs",
+                "region": {
+                  "startLine": 143,
+                  "startColumn": 22,
+                  "endLine": 143,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ValidarNulosVacios' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/InvitacionesManejador.cs",
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 22,
+                  "endLine": 127,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ActualizarDatosPersonales' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/PerfilManejador.cs",
+                "region": {
+                  "startLine": 211,
+                  "startColumn": 22,
+                  "endLine": 211,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'GestionarIngresoSala' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/ChatManejador.cs",
+                "region": {
+                  "startLine": 217,
+                  "startColumn": 35,
+                  "endLine": 217,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/SalasManejador.cs",
+                "region": {
+                  "startLine": 236,
+                  "startColumn": 13,
+                  "endLine": 239,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ValidarReenvioEntrada' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/RecuperacionCuentaServicio.cs",
+                "region": {
+                  "startLine": 248,
+                  "startColumn": 22,
+                  "endLine": 248,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'AsignarValoresRedSocial' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/PerfilManejador.cs",
+                "region": {
+                  "startLine": 251,
+                  "startColumn": 22,
+                  "endLine": 251,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ValidarConfirmacionEntrada' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/RecuperacionCuentaServicio.cs",
+                "region": {
+                  "startLine": 300,
+                  "startColumn": 22,
+                  "endLine": 300,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/SalasManejador.cs",
+                "region": {
+                  "startLine": 367,
+                  "startColumn": 13,
+                  "endLine": 370,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ValidarActualizacionEntrada' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/RecuperacionCuentaServicio.cs",
+                "region": {
+                  "startLine": 336,
+                  "startColumn": 22,
+                  "endLine": 336,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'VerificarTokenYExpiracion' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/RecuperacionCuentaServicio.cs",
+                "region": {
+                  "startLine": 347,
+                  "startColumn": 13,
+                  "endLine": 347,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ProcesarSalidaSala' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/ChatManejador.cs",
+                "region": {
+                  "startLine": 278,
+                  "startColumn": 35,
+                  "endLine": 278,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2245",
+          "level": "warning",
+          "message": "Make sure that using this pseudorandom number generator is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/SalasManejador.cs",
+                "region": {
+                  "startLine": 431,
+                  "startColumn": 26,
+                  "endLine": 431,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ObtenerJugadoresFinales' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CursoPartidaManejador.cs",
+                "region": {
+                  "startLine": 427,
+                  "startColumn": 38,
+                  "endLine": 427,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'RemoverClienteSinNotificar' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/ChatManejador.cs",
+                "region": {
+                  "startLine": 404,
+                  "startColumn": 22,
+                  "endLine": 404,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'RemoverCallback' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CursoPartidaManejador.cs",
+                "region": {
+                  "startLine": 616,
+                  "startColumn": 22,
+                  "endLine": 616,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'CalcularGanadores' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CursoPartidaManejador.cs",
+                "region": {
+                  "startLine": 457,
+                  "startColumn": 33,
+                  "endLine": 457,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'PersistirEstadisticasJugador' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CursoPartidaManejador.cs",
+                "region": {
+                  "startLine": 467,
+                  "startColumn": 22,
+                  "endLine": 467,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6664",
+          "level": "warning",
+          "message": "Reduce the number of Warning logging calls within this code block from 2 to the 1 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CursoPartidaManejador.cs",
+                "region": {
+                  "startLine": 658,
+                  "startColumn": 17,
+                  "endLine": 660,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CursoPartidaManejador.cs",
+                "region": {
+                  "startLine": 661,
+                  "startColumn": 17,
+                  "endLine": 661,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Reduce the number of Warning logging calls within this code block from 2 to the 1 allowed."
+            }
+          }
+        },
+        {
+          "ruleId": "S6664",
+          "level": "warning",
+          "message": "Reduce the number of Warning logging calls within this code block from 2 to the 1 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CursoPartidaManejador.cs",
+                "region": {
+                  "startLine": 666,
+                  "startColumn": 17,
+                  "endLine": 668,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CursoPartidaManejador.cs",
+                "region": {
+                  "startLine": 669,
+                  "startColumn": 17,
+                  "endLine": 669,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Reduce the number of Warning logging calls within this code block from 2 to the 1 allowed."
+            }
+          }
+        },
+        {
+          "ruleId": "S6664",
+          "level": "warning",
+          "message": "Reduce the number of Warning logging calls within this code block from 2 to the 1 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CursoPartidaManejador.cs",
+                "region": {
+                  "startLine": 674,
+                  "startColumn": 17,
+                  "endLine": 676,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CursoPartidaManejador.cs",
+                "region": {
+                  "startLine": 677,
+                  "startColumn": 17,
+                  "endLine": 677,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Reduce the number of Warning logging calls within this code block from 2 to the 1 allowed."
+            }
+          }
+        },
+        {
+          "ruleId": "S6664",
+          "level": "warning",
+          "message": "Reduce the number of Warning logging calls within this code block from 2 to the 1 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CursoPartidaManejador.cs",
+                "region": {
+                  "startLine": 543,
+                  "startColumn": 21,
+                  "endLine": 546,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CursoPartidaManejador.cs",
+                "region": {
+                  "startLine": 547,
+                  "startColumn": 21,
+                  "endLine": 547,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Reduce the number of Warning logging calls within this code block from 2 to the 1 allowed."
+            }
+          }
+        },
+        {
+          "ruleId": "S6664",
+          "level": "warning",
+          "message": "Reduce the number of Warning logging calls within this code block from 2 to the 1 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CursoPartidaManejador.cs",
+                "region": {
+                  "startLine": 552,
+                  "startColumn": 21,
+                  "endLine": 555,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CursoPartidaManejador.cs",
+                "region": {
+                  "startLine": 556,
+                  "startColumn": 21,
+                  "endLine": 556,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Reduce the number of Warning logging calls within this code block from 2 to the 1 allowed."
+            }
+          }
+        },
+        {
+          "ruleId": "S6664",
+          "level": "warning",
+          "message": "Reduce the number of Warning logging calls within this code block from 2 to the 1 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CursoPartidaManejador.cs",
+                "region": {
+                  "startLine": 561,
+                  "startColumn": 21,
+                  "endLine": 564,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CursoPartidaManejador.cs",
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 21,
+                  "endLine": 565,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Reduce the number of Warning logging calls within this code block from 2 to the 1 allowed."
+            }
+          }
+        },
+        {
+          "ruleId": "S6664",
+          "level": "warning",
+          "message": "Reduce the number of Warning logging calls within this code block from 2 to the 1 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CursoPartidaManejador.cs",
+                "region": {
+                  "startLine": 570,
+                  "startColumn": 21,
+                  "endLine": 573,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/CursoPartidaManejador.cs",
+                "region": {
+                  "startLine": 574,
+                  "startColumn": 21,
+                  "endLine": 574,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Reduce the number of Warning logging calls within this code block from 2 to the 1 allowed."
+            }
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'GenerarCodigoSala' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Usuario/source/repos/PictionaryMusical/PictionaryMusicalServidor/Servicios/Servicios/SalasManejador.cs",
+                "region": {
+                  "startLine": 429,
+                  "startColumn": 24,
+                  "endLine": 429,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in PascalCase",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1135": {
+          "id": "S1135",
+          "shortDescription": "Track uses of \"TODO\" tags",
+          "fullDescription": "Developers often use TODO tags to mark areas in the code where additional work or improvements are needed but are not implemented immediately. However, these TODO tags sometimes get overlooked or forgotten, leading to incomplete or unfinished code. This rule aims to identify and address unattended TODO tags to ensure a clean and maintainable codebase. This description explores why this is a problem and how it can be fixed to improve the overall code quality.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1135",
+          "properties": {
+            "category": "Info Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1144": {
+          "id": "S1144",
+          "shortDescription": "Unused private types or members should be removed",
+          "fullDescription": "This rule raises an issue when a private/internal type or member is never referenced in the code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1144",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1192": {
+          "id": "S1192",
+          "shortDescription": "String literals should not be duplicated",
+          "fullDescription": "Duplicated string literals make the process of refactoring complex and error-prone, as any change would need to be propagated on all occurrences.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1192",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2245": {
+          "id": "S2245",
+          "shortDescription": "Using pseudorandom number generators (PRNGs) is security-sensitive",
+          "fullDescription": "PRNGs are algorithms that produce sequences of numbers that only approximate true randomness. While they are suitable for applications like simulations or modeling, they are not appropriate for security-sensitive contexts because their outputs can be predictable if the internal state is known.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2245",
+          "properties": {
+            "category": "Critical Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2325": {
+          "id": "S2325",
+          "shortDescription": "Methods and properties that don't access instance data should be static",
+          "fullDescription": "Methods and properties that don’t access instance data should be marked as static for the following reasons:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2325",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2737": {
+          "id": "S2737",
+          "shortDescription": "\"catch\" clauses should do more than rethrow",
+          "fullDescription": "A catch clause that only rethrows the caught exception has the same effect as omitting the catch altogether and letting it bubble up automatically.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2737",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2933": {
+          "id": "S2933",
+          "shortDescription": "Fields that are only assigned in the constructor should be \"readonly\"",
+          "fullDescription": "readonly fields can only be assigned in a class constructor. If a class has a field that’s not marked readonly but is only set in the constructor, it could cause confusion about the field’s intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2933",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3260": {
+          "id": "S3260",
+          "shortDescription": "Non-derived \"private\" classes and records should be \"sealed\"",
+          "fullDescription": "Classes and records with either private or file access modifiers aren’t visible outside of their assemblies or files, so if they’re not extended inside their scope, they should be made explicitly non-extensible with the addition of the sealed keyword.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3260",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3267": {
+          "id": "S3267",
+          "shortDescription": "Loops should be simplified with \"LINQ\" expressions",
+          "fullDescription": "Using explicit loops for filtering, selecting, or aggregating elements can make code more verbose and harder to read. LINQ expressions provide a more concise and expressive way to perform these operations, improving code clarity and maintainability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3267",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3881": {
+          "id": "S3881",
+          "shortDescription": "\"IDisposable\" should be implemented correctly",
+          "fullDescription": "The IDisposable interface is a mechanism to release unmanaged resources, if not implemented correctly this could result in resource leaks or more severe bugs.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3881",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3928": {
+          "id": "S3928",
+          "shortDescription": "Parameter names used into ArgumentException constructors should match an existing one ",
+          "fullDescription": "Some constructors of the ArgumentException, ArgumentNullException, ArgumentOutOfRangeException and DuplicateWaitObjectException classes must be fed with a valid parameter name. This rule raises an issue in two cases:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3928",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S5332": {
+          "id": "S5332",
+          "shortDescription": "Using clear-text protocols is security-sensitive",
+          "fullDescription": "Clear-text protocols such as ftp, telnet, or http lack encryption of transported data, as well as the capability to build an authenticated connection. It means that an attacker able to sniff traffic from the network can read, modify, or corrupt the transported content. These protocols are not secure as they expose applications to an extensive range of risks:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-5332",
+          "properties": {
+            "category": "Critical Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6664": {
+          "id": "S6664",
+          "shortDescription": "The code block contains too many logging calls",
+          "fullDescription": "A code block should not contain too many logging statements of a specific level.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6664",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6667": {
+          "id": "S6667",
+          "shortDescription": "Logging in a catch clause should pass the caught exception as a parameter.",
+          "fullDescription": "This rule raises an issue on logging calls inside a catch clause that does not pass the raised Exception.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6667",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>HostServidor</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>c13245f0-a4bd-4496-962c-906a5f6d6954</ProjectGuid>
+  <FullPath>C:\Users\Usuario\source\repos\PictionaryMusical\PictionaryMusicalServidor\HostServidor\HostServidor.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResultFiles>
+    <AnalysisResultFile Id="FilesToAnalyze" Location="C:\Users\Usuario\source\repos\PictionaryMusical\PictionaryMusicalServidor\.sonarqube\conf\2\FilesToAnalyze.txt" />
+  </AnalysisResultFiles>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Users\Usuario\source\repos\PictionaryMusical\PictionaryMusicalServidor\.sonarqube\out\2\Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Users\Usuario\source\repos\PictionaryMusical\PictionaryMusicalServidor\.sonarqube\out\2</Property>
+    <Property Name="sonar.cs.scanner.telemetry">C:\Users\Usuario\source\repos\PictionaryMusical\PictionaryMusicalServidor\.sonarqube\out\2\Telemetry.json</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+</ProjectInfo>

@@ -1,0 +1,1 @@
+xRjC:\Users\Usuario\source\repos\PictionaryMusical\PictionaryMusicalServidor\HostServidor\HostServidor.csprojò	CSharp7_3

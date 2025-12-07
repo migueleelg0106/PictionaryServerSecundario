@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\PictionaryMusical\PictionaryMusicalServidor\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\PictionaryMusical\PictionaryMusicalServidor\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\PictionaryMusical\PictionaryMusicalServidor\Datos\bin\Debug\Datos.dll.config
+C:\Users\Usuario\source\repos\PictionaryMusical\PictionaryMusicalServidor\Datos\bin\Debug\Datos.dll
+C:\Users\Usuario\source\repos\PictionaryMusical\PictionaryMusicalServidor\Datos\bin\Debug\Datos.pdb
+C:\Users\Usuario\source\repos\PictionaryMusical\PictionaryMusicalServidor\Datos\bin\Debug\EntityFramework.dll
+C:\Users\Usuario\source\repos\PictionaryMusical\PictionaryMusicalServidor\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Usuario\source\repos\PictionaryMusical\PictionaryMusicalServidor\Datos\bin\Debug\log4net.dll
+C:\Users\Usuario\source\repos\PictionaryMusical\PictionaryMusicalServidor\Datos\bin\Debug\EntityFramework.xml
+C:\Users\Usuario\source\repos\PictionaryMusical\PictionaryMusicalServidor\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Usuario\source\repos\PictionaryMusical\PictionaryMusicalServidor\Datos\bin\Debug\log4net.pdb
+C:\Users\Usuario\source\repos\PictionaryMusical\PictionaryMusicalServidor\Datos\bin\Debug\log4net.xml
+C:\Users\Usuario\source\repos\PictionaryMusical\PictionaryMusicalServidor\Datos\obj\Debug\Datos.csproj.Up2Date
+C:\Users\Usuario\source\repos\PictionaryMusical\PictionaryMusicalServidor\Datos\obj\Debug\Datos.dll
+C:\Users\Usuario\source\repos\PictionaryMusical\PictionaryMusicalServidor\Datos\obj\Debug\Datos.pdb

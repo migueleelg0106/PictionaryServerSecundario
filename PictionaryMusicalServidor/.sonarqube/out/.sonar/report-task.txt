@@ -1,0 +1,6 @@
+projectKey=PictionaryMusical
+serverUrl=http://localhost:9000
+serverVersion=25.10.0.114319
+dashboardUrl=http://localhost:9000/dashboard?id=PictionaryMusical
+ceTaskId=8b65293e-a9be-4ffb-adc1-a0b9997a9dd0
+ceTaskUrl=http://localhost:9000/api/ce/task?id=8b65293e-a9be-4ffb-adc1-a0b9997a9dd0
