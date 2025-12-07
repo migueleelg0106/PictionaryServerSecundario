@@ -82,10 +82,6 @@ namespace PictionaryMusicalServidor.Servicios.Servicios
 
                 return await EjecutarEnvioCorreo(correo, sala, invitacion.Idioma);
             }
-            catch (FaultException)
-            {
-                throw;
-            }
             catch (ArgumentException ex)
             {
                 _logger.Warn("Datos invalidos al enviar invitacion.", ex);

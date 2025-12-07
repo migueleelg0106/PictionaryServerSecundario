@@ -160,10 +160,6 @@ namespace PictionaryMusicalServidor.Servicios.Servicios
 
                 return resultado;
             }
-            catch (FaultException)
-            {
-                throw;
-            }
             catch (ArgumentException ex)
             {
                 _logger.Warn("Operacion invalida al unirse a sala.", ex);
@@ -227,10 +223,6 @@ namespace PictionaryMusicalServidor.Servicios.Servicios
 
                 sala.RemoverJugador(nombreUsuario.Trim());
                 _notificador.NotificarListaSalasATodos();
-            }
-            catch (FaultException)
-            {
-                throw;
             }
             catch (ArgumentException ex)
             {
@@ -343,10 +335,6 @@ namespace PictionaryMusicalServidor.Servicios.Servicios
                 }
 
                 _notificador.NotificarListaSalasATodos();
-            }
-            catch (FaultException)
-            {
-                throw;
             }
             catch (ArgumentException ex)
             {

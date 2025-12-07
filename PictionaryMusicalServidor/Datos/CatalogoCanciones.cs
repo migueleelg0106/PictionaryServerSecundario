@@ -108,10 +108,6 @@ namespace PictionaryMusicalServidor.Datos
 
                 return SeleccionarAleatorio(candidatos);
             }
-            catch (CancionNoDisponibleExcepcion)
-            {
-                throw;
-            }
             catch (ArgumentException ex)
             {
                 _logger.Error("Error inesperado al obtener una cancion aleatoria.", ex);

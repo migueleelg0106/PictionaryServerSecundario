@@ -155,10 +155,6 @@ namespace PictionaryMusicalServidor.Datos.DAL.Implementaciones
                 throw new KeyNotFoundException(
                     $"El usuario '{nombreUsuario}' no existe en la base de datos.");
             }
-            catch (KeyNotFoundException)
-            {
-                throw;
-            }
             catch (DbUpdateException ex)
             {
                 _logger.ErrorFormat(
