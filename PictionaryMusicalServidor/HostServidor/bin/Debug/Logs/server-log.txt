@@ -883,3 +883,18 @@ System.InvalidOperationException: No existe una relacion de amistad entre los us
 2025-12-06 07:00:07,206 INFO  [1] PictionaryMusicalServidor.HostServidor.Principal - Servicio ReportesManejador levantado correctamente.
 2025-12-06 07:00:07,208 INFO  [1] PictionaryMusicalServidor.HostServidor.Principal - Servicios iniciados correctamente.
 2025-12-06 07:00:07,208 INFO  [1] PictionaryMusicalServidor.HostServidor.Principal - Todos los servicios estan arriba y escuchando. Presiona ENTER para salir.
+2025-12-06 21:09:08,019 INFO  [1] PictionaryMusicalServidor.HostServidor.Principal - Servicio CuentaManejador levantado correctamente.
+2025-12-06 21:09:08,036 INFO  [1] PictionaryMusicalServidor.HostServidor.Principal - Servicio CodigoVerificacionManejador levantado correctamente.
+2025-12-06 21:09:08,041 INFO  [1] PictionaryMusicalServidor.HostServidor.Principal - Servicio InicioSesionManejador levantado correctamente.
+2025-12-06 21:09:08,046 INFO  [1] PictionaryMusicalServidor.HostServidor.Principal - Servicio CambioContrasenaManejador levantado correctamente.
+2025-12-06 21:09:08,083 INFO  [1] PictionaryMusicalServidor.HostServidor.Principal - Servicio ClasificacionManejador levantado correctamente.
+2025-12-06 21:09:08,088 INFO  [1] PictionaryMusicalServidor.HostServidor.Principal - Servicio PerfilManejador levantado correctamente.
+2025-12-06 21:09:08,167 INFO  [1] PictionaryMusicalServidor.HostServidor.Principal - Servicio AmigosManejador levantado correctamente.
+2025-12-06 21:09:08,173 INFO  [1] PictionaryMusicalServidor.HostServidor.Principal - Servicio ListaAmigosManejador levantado correctamente.
+2025-12-06 21:09:08,185 INFO  [1] PictionaryMusicalServidor.HostServidor.Principal - Servicio SalasManejador levantado correctamente.
+2025-12-06 21:09:08,190 INFO  [1] PictionaryMusicalServidor.HostServidor.Principal - Servicio InvitacionesManejador levantado correctamente.
+2025-12-06 21:09:08,204 INFO  [1] PictionaryMusicalServidor.HostServidor.Principal - Servicio CursoPartidaManejador levantado correctamente.
+2025-12-06 21:09:08,208 INFO  [1] PictionaryMusicalServidor.HostServidor.Principal - Servicio ChatManejador levantado correctamente.
+2025-12-06 21:09:08,211 INFO  [1] PictionaryMusicalServidor.HostServidor.Principal - Servicio ReportesManejador levantado correctamente.
+2025-12-06 21:09:08,211 INFO  [1] PictionaryMusicalServidor.HostServidor.Principal - Servicios iniciados correctamente.
+2025-12-06 21:09:08,212 INFO  [1] PictionaryMusicalServidor.HostServidor.Principal - Todos los servicios estan arriba y escuchando. Presiona ENTER para salir.
