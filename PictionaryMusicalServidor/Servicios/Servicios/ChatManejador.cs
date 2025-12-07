@@ -72,10 +72,6 @@ namespace PictionaryMusicalServidor.Servicios.Servicios
 
                 ConfigurarEventosCanal(idSalaNormalizado, nombreNormalizado);
             }
-            catch (FaultException)
-            {
-                throw;
-            }
             catch (ArgumentException ex)
             {
                 _logger.Warn("Datos invalidos al unirse al chat.", ex);
@@ -130,10 +126,6 @@ namespace PictionaryMusicalServidor.Servicios.Servicios
                     nombreNormalizado,
                     mensajeNormalizado);
             }
-            catch (FaultException)
-            {
-                throw;
-            }
             catch (ArgumentException ex)
             {
                 _logger.Warn("Datos invalidos al enviar mensaje.", ex);
@@ -177,10 +169,6 @@ namespace PictionaryMusicalServidor.Servicios.Servicios
                 var nombreNormalizado = nombreJugador.Trim();
 
                 RemoverCliente(idSalaNormalizado, nombreNormalizado);
-            }
-            catch (FaultException)
-            {
-                throw;
             }
             catch (ArgumentException ex)
             {
